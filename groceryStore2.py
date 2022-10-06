@@ -41,7 +41,7 @@ def calculateMos(shoppingList, itemsBought, qTime, didPant):
 
 
 def inter_arrival_time(lambda_):
-     print("calculating timeout")
+     print("calcuklating timeout")
      print(numpy.random.exponential(1/lambda_))
      return numpy.random.exponential(1/lambda_) # beta = 1/lambda
 
